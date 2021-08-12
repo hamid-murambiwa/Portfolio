@@ -26,7 +26,7 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 6.5vh;
+  height: 7vh;
 }
 
 .Nav-1 a {
@@ -40,13 +40,14 @@ a {
 }
 
 .section-title {
-  font-size: 6.8vw;
+  font-size: 7.2vw;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   width: 100%;
   color: #172b4d;
   line-height: 12vw;
+  margin-top: 21%;
 }
 
 .social-icons {
@@ -59,12 +60,11 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 93.5vh;
+  height: 93vh;
   text-align: center;
   background-image: url(images/header-illsutration-mobile.svg);
   background-size: 100% 100%;
-  padding: 20% 8vw 0% 8vw;
-  padding-top: 15%;
+  padding: 0% 10% 0% 10%;
   width: 100%;
 }
 
@@ -74,22 +74,26 @@ a {
   font-weight: 400;
   text-align: center;
   color: #172b4d;
+  margin-top: 5vw;
+  margin-bottom: 10%;
 }
 
-#s-1 nav {
+#s-1 .social-media {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-#s-1 nav ul {
+#s-1 ul {
+  margin-top: 1vw;
+  margin-bottom: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 170px;
 }
 
-#s-1 li {
+.social-media-block {
   display: flex;
   justify-content: center;
   flex: 1;
