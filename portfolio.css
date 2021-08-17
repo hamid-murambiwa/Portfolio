@@ -269,12 +269,12 @@
     font-family: 'Inter', sans-serif;
   }
 
-  .B a {
+  .B button {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    text-decoration: none;
+    border-style: none;
     background: #36b37f;
     padding: 2vw;
     height: 80%;
@@ -285,12 +285,12 @@
     border-radius: 4px;
   }
 
-  .B-2 a {
+  .B-2 button {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    text-decoration: none;
+    border-style: none;
     background: #36b37f;
     padding: 3vw;
     height: 80%;
@@ -342,12 +342,12 @@
     margin-top: 5%;
   }
 
-  .B a:hover {
+  .B button:hover {
     background: #36b37f;
     box-shadow: 0 0.4vw 0.8vw rgba(54, 179, 127, 0.24);
   }
 
-  .B a:active {
+  .B button:active {
     background: #008552;
   }
 
@@ -807,12 +807,12 @@
     font-family: 'Inter', sans-serif;
   }
 
-  .B a {
+  .B button {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    text-decoration: none;
+    border-style: none;
     background: #36b37f;
     padding: 2vw;
     height: 80%;
@@ -823,12 +823,12 @@
     border-radius: 1.2vw;
   }
 
-  .B-2 a {
+  .B-2 button {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    text-decoration: none;
+    border-style: none;
     background: #36b37f;
     padding: 3vw;
     height: 80%;
@@ -882,12 +882,12 @@
     padding-right: 4vw;
   }
 
-  .B a:hover {
+  .B button:hover {
     background: #36b37f;
     box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   }
 
-  .B a:active {
+  .B button:active {
     background: #008552;
   }
 
@@ -1053,6 +1053,15 @@
     width: 100%;
     height: 10vh;
     margin-top: 5%;
+  }
+
+  .B-2 button:hover {
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  }
+
+  .B-2 button:active {
+    background: #008552;
   }
 
   .social-media-2 {
