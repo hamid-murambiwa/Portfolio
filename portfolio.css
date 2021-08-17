@@ -361,7 +361,7 @@
   #Works-grid-2 {
     display: grid;
     grid-template-columns: auto;
-    padding: 10px;
+    padding: 0.5vw;
     margin-bottom: 5vw;
   }
 
@@ -485,7 +485,7 @@
     color: #091e42;
     padding: 3vw;
     resize: initial;
-    background-image: url(images/Icon-Resizer-Handle.svg);
+    background-image: url(images/comment-icon.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -1025,10 +1025,11 @@
     color: #091e42;
     padding: 3vw;
     resize: initial;
-    background-image: url(images/Icon-Resizer-Handle.svg);
+    background-image: url(images/comment-icon.svg);
+    background-size: 10% 10%;
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
+    background-position: 101% 94%;
+    padding-bottom: 3vw;
   }
 
   #contact-grid {
