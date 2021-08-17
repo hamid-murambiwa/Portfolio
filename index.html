@@ -342,9 +342,9 @@
           
         
         <div class="B">
-            <a href="">
+            <button>
                 Get My Resume
-              </a> 
+            </button> 
           </div>
           
     </div>
@@ -464,18 +464,19 @@
     </h4>
 </div>
 
-<form id="form-grid">
-    <input type="text" class="form-item" placeholder="Full name" required>
-    <input type="email" class="form-item" placeholder="Email address" required>
-    <textarea name="comment-input" form="usrform" class="comment-input" placeholder="Enter text here" required>Enter text here</textarea>
+<form id="form-grid" action="https://formspree.io/f/xvodvrjv"
+method="POST">
+    <input type="text" placeholder="Full name" name="full-name" maxlength="30" required>
+    <input type="email" placeholder="Email address" name="email" required>
+    <textarea form="usrform" placeholder="Enter text here" name="comment-section" maxlength="500">Enter text here</textarea>
+    <div class="B-2">
+        <button type="submit" name="comment-section" action="https://formspree.io/f/xvodvrjv" method="POST" required>
+           Get in touch
+        </button> 
+       </div>
 </form>
 
-<section id="contact-grid">
-    <div class="B-2">
-     <a href="">
-        Get in touch
-     </a> 
-    </div>
+<section id="contact-grid"> 
 
 <div class= "social-media-2">
     <ul>
