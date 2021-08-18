@@ -27,9 +27,8 @@
 **Give a ⭐️ if you like this project!**
 
 <h2>Acknowledgments</h2>
-*Hat tip to anyone whose code was used
-*Inspiration
-*etc
+ - Microverse
+ - Microverse Learning Partners  
 
 <h2>📝 License</h2>
 This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
