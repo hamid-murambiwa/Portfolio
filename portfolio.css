@@ -69,7 +69,7 @@
     align-items: center;
     height: auto;
     text-align: center;
-    background-image: url(images/header-illsutration-mobile.svg);
+    background-image: url('images/header-illsutration-mobile.svg');
     background-size: 100% 100%;
     padding: 0% 10% 0% 10%;
     width: 100%;
@@ -223,7 +223,7 @@
   }
 
   .card-content li {
-    float: right;
+    float: left;
     flex-grow: 1;
     border: none;
     border-radius: 3px;
@@ -852,7 +852,7 @@
     width: 100%;
     height: auto;
     margin-bottom: 6vh;
-    background-image: url(images/Mask\ Group.svg);
+    background-image: url('images/Mask\ Group.svg');
     background-position: right;
     background-position-y: top;
     background-repeat: no-repeat;
@@ -872,7 +872,7 @@
     justify-content: center;
     align-items: flex-end;
     width: 100%;
-    background-image: url(images/Group.svg);
+    background-image: url('images/Group.svg');
     background-position-y: bottom;
     background-size: 20%;
     background-repeat: no-repeat;
