@@ -762,9 +762,7 @@
   }
 
   .card-content li {
-
     float: right;
-
     flex-grow: 1;
     border: none;
     border-radius: 3px;
@@ -772,10 +770,8 @@
     background: #ebf0ee;
     text-align: center;
     margin: 1vw;
-
     padding: 2vw;
     font-size: 3.8vw;
-
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #3a4a42;
