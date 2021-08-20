@@ -578,7 +578,7 @@ nav {
   .section-heading img {
     display: none;
   }
-  
+
   .heading-title {
     display: flex;
     flex-direction: row;
@@ -821,5 +821,21 @@ nav {
 
   .small_bg {
     background: none;
+  }
+
+  .social-media-2 li {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  ..social-icons  li {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+
+  .social-media-2 li:hover {
+    transform: rotateY(180deg);
+  }
+  .social-icons li:hover {
+    transform: rotateY(180deg);
   }
 }
