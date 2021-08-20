@@ -570,8 +570,8 @@ nav {
   .social-icons {
     width: 1.5vw;
     height: 1.5vw;
-    margin-right: 0.1vw;
-    margin-left: 0.1vw;
+    margin-right: 1px;
+    margin-left: 1px;
   }
 
   .social-media {
