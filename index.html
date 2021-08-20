@@ -11,32 +11,42 @@
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <div class="page-container">
+    <div class="page-container small_bg">
 
     <header>
         <nav>
-            <ul class="header-container">
-                <li class="Nav Nav-1">
-                  <a href="">Welcome</a>
-                </li>
-
-                  
-                <li class="Nav Nav-2">
-                    <a href=""><img src="images/Menu.svg" alt="a Union icon" class="social-icons"></a>
-                </li>
-            </ul>
+            <a href="" class="logo">Welcome</a>
+            
+            
+            <a href=""><img src="images/Menu.svg" alt="a Union icon" class="menu-icons"></a>
+           
         </nav>
+
+      
         
     </header>
 
     <section id="s-1">
+        <ul>
+            <li>
+                Portfolio
+            </li>
+ 
+            <li>
+                About
+         </li>
+ 
+         <li>
+               Contact 
+         </li>  
+        </ul>
         <div class="section-title">
             <h1>
                 Hey there. I’m Mariane
                 <br>
                <span>I’m a software developer</span> 
             </h1>
-            
+          
         </div>
         
         <p>
@@ -83,7 +93,7 @@
           </button>
         
     </section>
-</div>
+
 
 <div class="section-heading">
     <div class="heading-title">
@@ -341,7 +351,7 @@
               </p>
           
         
-        <div>
+        <div class="btn-con">
             <a href="#" class="btn">
                 Get My Resume
             </a> 
@@ -457,56 +467,56 @@
 
 </div>
 
-
-<div id="heading-grid">
-    <h4>
-        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-    </h4>
+<div class="form-con">
+    <div id="heading-grid">
+        <h4>
+            I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+        </h4>
+    </div>
+    
+    <form id="form-grid" action="https://formspree.io/f/xvodvrjv" method="POST">
+        <input type="text" placeholder="Full name" name="full-name" maxlength="30" required>
+        <input type="email" placeholder="Email address" name="email" required>
+        <textarea placeholder="Enter text here" name="comment-section" maxlength="500" required></textarea>
+        <div class="B-2">
+            <button type="submit" class="btn" name="comment-section">
+               Get in touch
+            </button> 
+        </div>
+    </form>
 </div>
-
-<form id="form-grid" action="https://formspree.io/f/xvodvrjv"
-method="POST">
-    <input type="text" placeholder="Full name" name="full-name" maxlength="30" required>
-    <input type="email" placeholder="Email address" name="email" required>
-    <textarea placeholder="Enter text here" name="comment-section" maxlength="500" required></textarea>
-    <div class="B-2">
-        <button type="submit" class="btn" name="comment-section">
-           Get in touch
-        </button> 
-       </div>
-</form>
 
 <section id="contact-grid"> 
 
 <div class= "social-media-2">
     <ul>
-         <li class="social-media-block-2">
-           <a href="">
-               <img src="images/twitter.svg" alt="" class="social-icons-2">
-           </a>
-         </li>
+        <li class="social-media-block-2">
+            <a href="">
+            <img src="images/github.svg" alt="" class="social-icons-2">
+            </a>
+        </li>
 
-         <li class="social-media-block-2">
+        <li class="social-media-block-2">
             <a href="">
              <img src="images/Linkedin-icon.svg" alt="" class="social-icons-2">
             </a>
          </li>
 
          <li class="social-media-block-2">
+            <a href="">
+                <img src="images/angellist.svg" alt="" class="social-icons-2">
+            </a>
+        </li>
+
+         <li class="social-media-block-2">
+            <a href="">
+                <img src="images/twitter.svg" alt="" class="social-icons-2">
+            </a>
+          </li>
+
+         <li class="social-media-block-2">
              <a href="">
                  <img src="images/medium.svg" alt="" class="social-icons-2">
-             </a>
-         </li>
-
-         <li class="social-media-block-2">
-             <a href="">
-             <img src="images/github.svg" alt="" class="social-icons-2">
-             </a>
-         </li>
-
-         <li class="social-media-block-2">
-             <a href="">
-                 <img src="images/angellist.svg" alt="" class="social-icons-2">
              </a>
          </li>
          
