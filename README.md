@@ -2,6 +2,9 @@
    *Portfolio main page with a mobile and main page*
 
 ![an image of the portfolio mobile page  webpage](https://github.com/hamid-murambiwa/Portfolio-Mobile-site-image/blob/main/Screenshot%202021-08-12%20at%2008.38.49.png)
+## Live Demo
+
+[Live Demo Link](https://hamid-murambiwa.github.io/Portfolio)
 
 **2 sections of the portfolio mobile version skeleton**
 
