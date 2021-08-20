@@ -493,6 +493,14 @@ nav {
     width: 100%;
   }
 
+  .about-container p {
+    background-position-y: bottom;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 60%;
+  }
+
   .section-title {
     font-size: 25px;
     text-align: center;
@@ -501,14 +509,22 @@ nav {
     color: #172b4d;
     line-height: 60px;
     margin-top: 15%;
+    animation-name: zoom-in-zoom-out;
+    animation-duration: 8s;
   }
 
-  .about-container p {
-    background-position-y: bottom;
-    background-size: 20%;
-    background-repeat: no-repeat;
-    padding: 0;
-    width: 60%;
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+
+    100% {
+      transform: scale(1, 1);
+    }
   }
 
   #s-1 p {
@@ -519,6 +535,22 @@ nav {
     margin-top: 20px;
     width: 65%;
     margin-bottom: 0%;
+    animation-name: zoom-in-zoom-out;
+    animation-duration: 8s;
+  }
+
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+
+    100% {
+      transform: scale(1, 1);
+    }
   }
 
   .social-media {
