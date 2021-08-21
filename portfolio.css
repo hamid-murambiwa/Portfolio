@@ -93,6 +93,11 @@ nav {
   cursor: pointer;
 }
 
+.btn:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 0.8vw rgba(54, 179, 127, 0.24);
+}
+
 .btn:active {
   background-color: #008552;
 }
@@ -409,6 +414,7 @@ nav {
   box-sizing: border-box;
   border-radius: 4px;
   margin-top: 4vh;
+  text-decoration: none;
   font-weight: normal;
   font-size: 3.5vw;
   line-height: 24px;
@@ -510,16 +516,24 @@ nav {
     line-height: 60px;
     margin-top: 15%;
     animation-name: zoom-in-zoom-out;
-    animation-duration: 8s;
+    animation-duration: 400ms;
   }
 
   @keyframes zoom-in-zoom-out {
     0% {
-      transform: scale(1, 1);
+      transform: scale(0.1, 0.1);
+    }
+
+    25% {
+      transform: scale(0.2, 0.2);
     }
 
     50% {
-      transform: scale(1.5, 1.5);
+      transform: scale(0.5, 0.5);
+    }
+
+    75% {
+      transform: scale(0.7, 0.7);
     }
 
     100% {
@@ -536,16 +550,24 @@ nav {
     width: 65%;
     margin-bottom: 0%;
     animation-name: zoom-in-zoom-out;
-    animation-duration: 8s;
+    animation-duration: 400ms;
   }
 
   @keyframes zoom-in-zoom-out {
     0% {
-      transform: scale(1, 1);
+      transform: scale(0.1, 0.1);
+    }
+
+    25% {
+      transform: scale(0.2, 0.2);
     }
 
     50% {
-      transform: scale(1.5, 1.5);
+      transform: scale(0.5, 0.5);
+    }
+
+    75% {
+      transform: scale(0.7, 0.7);
     }
 
     100% {
@@ -578,7 +600,7 @@ nav {
   .section-heading img {
     display: none;
   }
-  
+
   .heading-title {
     display: flex;
     flex-direction: row;
@@ -752,8 +774,9 @@ nav {
     box-sizing: border-box;
     border-radius: 4px;
     margin-top: 4vh;
+    font-family: 'Inter', sans-serif;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     color: #091e42;
     padding: 9px;
@@ -822,4 +845,24 @@ nav {
   .small_bg {
     background: none;
   }
+
+  .s-con:hover {
+    animation-name: hover-con;
+    animation-duration: 1s;
+  }
+
+  @keyframes hover-con {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotateY(180deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
 }
