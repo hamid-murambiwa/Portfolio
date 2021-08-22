@@ -432,6 +432,7 @@ nav {
   border-radius: 4px;
   margin-top: 4vh;
   text-decoration: none;
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   font-size: 3.5vw;
   line-height: 24px;
@@ -442,6 +443,7 @@ nav {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
+  background-origin: content-box;
 }
 
 #contact-grid {
@@ -875,6 +877,7 @@ nav {
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
+    background-origin: content-box;
   }
 
   #contact-grid {
