@@ -136,8 +136,10 @@ nav {
   text-align: center;
   background-image: url('images/header-illsutration-mobile.svg');
   background-size: 100% 100%;
+  background-repeat: no-repeat;
   padding: 0% 10% 0% 10%;
   width: 100%;
+  border: 2px solid transparent;
 }
 
 .about-container p {
@@ -151,11 +153,24 @@ nav {
 }
 
 #s-1 p {
-  font-size: 23px;
+  font-size: 15px;
   font-weight: 400;
   color: #172b4d;
   margin-top: 5vw;
   margin-bottom: 65px;
+  animation-name: zoom-in-zoom-out;
+  animation-duration: 1s;
+  animation-direction: normal;
+}
+
+@keyframes zoom-in-zoom-out {
+  from {
+    transform: scale(0, 0);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
 }
 
 #s-1 span {
@@ -190,7 +205,7 @@ nav {
 
 .Card {
   display: grid;
-  grid-template-rows: 53% 47%;
+  grid-template-rows: 45% 55%;
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   height: 474px;
@@ -198,6 +213,20 @@ nav {
   border-radius: 8px;
   margin: 22px 22px;
   align-items: stretch;
+}
+
+.Card:hover {
+  animation-name: en-large;
+  animation-duration: 100ms;
+  animation-fill-mode: both;
+}
+
+@keyframes en-large {
+  100% {
+    background-color: #dfe3e2;
+    box-shadow: 0 5px 2vw #28352f3e;
+    transform: scale(1.05);
+  }
 }
 
 .card-content {
@@ -232,7 +261,7 @@ nav {
   height: 6vh;
   background: #fff;
   text-align: center;
-  font-size: 2vw;
+  font-size: 12px;
   line-height: 16px;
   font-weight: 600;
   color: #36b37e;
@@ -267,6 +296,7 @@ nav {
   background-position: right;
   background-position-y: top;
   background-repeat: no-repeat;
+  border: 2px solid transparent;
 }
 
 .about-container {
@@ -297,7 +327,6 @@ nav {
 
 #Works-grid-2 {
   display: grid;
-  grid-template-columns: auto;
   gap: 24px;
   margin: 59px 0;
 }
@@ -305,7 +334,6 @@ nav {
 .Card-2 {
   display: grid;
   grid-template-rows: auto;
-  grid-auto-rows: auto;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   text-align: center;
@@ -313,6 +341,20 @@ nav {
   margin: 0 22px;
   align-items: stretch;
   padding-bottom: 30px;
+}
+
+.Card-2:hover {
+  animation-name: en-large;
+  animation-duration: 100ms;
+  animation-fill-mode: both;
+}
+
+@keyframes en-large {
+  100% {
+    background-color: #dfe3e2;
+    box-shadow: 0 5px 2vw #28352f3e;
+    transform: scale(1.05);
+  }
 }
 
 .Card-2 img {
@@ -423,19 +465,20 @@ nav {
 .s-con:hover {
   animation-name: hover-con;
   animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 @keyframes hover-con {
-  0% {
+  from {
     transform: rotate(0deg);
   }
 
   50% {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) scale(1.5, 1.5);
   }
 
-  100% {
-    transform: rotate(0deg);
+  to {
+    transform: rotate(0deg) scale(1.5, 1.5);
   }
 }
 
@@ -457,46 +500,42 @@ nav {
 }
 
 .section-title h1 {
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 100px;
+  font-size: 37px;
+  line-height: 40px;
+  margin-top: 29%;
   font-weight: 700;
+  animation-name: zoom-in-zoom-out;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+@keyframes zoom-in-zoom-out {
+  from {
+    transform: scale(0.7, 0.7);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
 }
 
 .section-title {
   text-align: center;
   width: 100%;
   color: #172b4d;
-  animation-name: zoom-in-zoom-out;
-  animation-duration: 400ms;
 }
 
-@keyframes zoom-in-zoom-out {
-  0% {
-    transform: scale(0.1, 0.1);
-  }
-
-  25% {
-    transform: scale(0.2, 0.2);
-  }
-
-  50% {
-    transform: scale(0.5, 0.5);
-  }
-
-  75% {
-    transform: scale(0.7, 0.7);
-  }
-
-  100% {
-    transform: scale(1, 1);
-  }
-}
-
-@media (min-width: 500px) {
+@media (max-width: 325px) {
   #s-1 {
-    background-size: 100% 153%;
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 412px) {
+  #s-1 {
+    background-image: url('images/header-illsutration-mobile.svg');
     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -504,7 +543,7 @@ nav {
   .logo {
     display: none;
   }
-  
+
   header {
     display: none;
   }
@@ -527,10 +566,11 @@ nav {
     justify-content: flex-start;
     align-items: center;
     background-image: url('images/Header-llustration-desktop.svg');
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 0% 10% 0% 10%;
     width: 100%;
+    border: none;
   }
 
   .about-container p {
@@ -553,28 +593,17 @@ nav {
     width: 100%;
     color: #172b4d;
     animation-name: zoom-in-zoom-out;
-    animation-duration: 400ms;
+    animation-duration: 2s;
+    animation-direction: alternate;
   }
 
   @keyframes zoom-in-zoom-out {
-    0% {
-      transform: scale(0.1, 0.1);
+    from {
+      margin-top: 50px;
     }
 
-    25% {
-      transform: scale(0.2, 0.2);
-    }
-
-    50% {
-      transform: scale(0.5, 0.5);
-    }
-
-    75% {
-      transform: scale(0.7, 0.7);
-    }
-
-    100% {
-      transform: scale(1, 1);
+    to {
+      margin-top: 100px;
     }
   }
 
@@ -587,33 +616,26 @@ nav {
     width: 70%;
     margin-bottom: 0%;
     animation-name: zoom-in-zoom-out;
-    animation-duration: 400ms;
+    animation-duration: 1s;
+    animation-direction: normal;
   }
 
   @keyframes zoom-in-zoom-out {
-    0% {
-      transform: scale(0.1, 0.1);
-    }
-
-    25% {
-      transform: scale(0.2, 0.2);
-    }
-
-    50% {
-      transform: scale(0.5, 0.5);
-    }
-
-    75% {
+    from {
       transform: scale(0.7, 0.7);
     }
 
-    100% {
+    to {
       transform: scale(1, 1);
     }
   }
 
   .social-media {
     margin-top: 2vw;
+  }
+
+  .btn {
+    height: 40px;
   }
 
   .btn_circle {
@@ -653,7 +675,7 @@ nav {
     grid-template-columns: repeat(3, 2fr);
     grid-column-gap: 1px;
     width: auto;
-    padding: 52px 142px;
+    padding: 52px 60px;
   }
 
   .Card {
@@ -663,6 +685,20 @@ nav {
     width: auto;
     align-items: flex-end;
     margin: 3%;
+  }
+
+  .Card:hover {
+    animation-name: en-large;
+    animation-duration: 100ms;
+    animation-fill-mode: both;
+  }
+
+  @keyframes en-large {
+    100% {
+      background-color: #dfe3e2;
+      box-shadow: 0 5px 2vw #28352f3e;
+      transform: scale(1.05);
+    }
   }
 
   .card-content {
@@ -675,6 +711,7 @@ nav {
     padding: 1vw;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 30px;
   }
 
   .card-content h3 {
@@ -722,14 +759,29 @@ nav {
   #Works-grid-2 {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-column-gap: 1px;
+    gap: 24px;
     width: auto;
-    padding: 5vw;
+    padding: 45px;
   }
 
   .Card-2 {
-    height: 422px;
-    grid-template-rows: 50% 50%;
+    height: 352px;
+    grid-template-rows: 40% 60%;
+    margin: 0;
+  }
+
+  .Card-2:hover {
+    animation-name: en-large;
+    animation-duration: 100ms;
+    animation-fill-mode: both;
+  }
+
+  @keyframes en-large {
+    100% {
+      background: #dfe3e2;
+      box-shadow: 0 5px 2vw #28352f3e;
+      transform: scale(1.05);
+    }
   }
 
   .Card-2 img {
@@ -887,19 +939,21 @@ nav {
   .s-con:hover {
     animation-name: hover-con;
     animation-duration: 1s;
+    animation-fill-mode: both;
   }
 
   @keyframes hover-con {
-    0% {
+    from {
       transform: rotate(0deg);
     }
 
     50% {
-      transform: rotateY(180deg);
+      transform: rotateY(180deg) scale(1.5, 1.5);
     }
 
-    100% {
-      transform: rotate(0deg);
+    to {
+      transform: rotate(0deg) scale(1.5, 1.5);
     }
   }
+}
 }
