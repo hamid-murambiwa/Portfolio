@@ -568,7 +568,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     background-image: url('images/Header-llustration-desktop.svg');
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 0% 10% 0% 10%;
     width: 100%;
