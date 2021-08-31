@@ -31,12 +31,39 @@ nav {
   padding: 2vw;
 }
 
+.navlink-items a {
+  color: #3a4a42;
+}
+
 .navlinks {
   display: none;
   justify-content: space-between;
   color: #172b4d;
   font-size: 18px;
   font-weight: bold;
+}
+
+.navlinks.active {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  padding: 108px 28px;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  color: #3a4a42;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 54px;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  z-index: 1;
 }
 
 .card-content ul {
@@ -72,6 +99,15 @@ nav {
   justify-content: space-between;
 }
 
+.menu {
+  border: none;
+  background: none;
+}
+
+.menu.active {
+  z-index: 2;
+}
+
 .menu-icons {
   width: 24px;
   height: 24px;
@@ -82,7 +118,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color: #36b37f;
+  background-color: #257553;
   padding: 0.75rem;
   color: #fff;
   height: 3rem;
@@ -134,7 +170,7 @@ nav {
   align-items: center;
   height: auto;
   text-align: center;
-  background-image: url('images/header-illsutration-mobile.svg');
+  background-image: url('./images/header-illsutration-mobile.svg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 0% 10% 0% 10%;
@@ -174,7 +210,7 @@ nav {
 }
 
 #s-1 span {
-  color: #36b37e;
+  color: #267e59;
 }
 
 .section-heading {
@@ -292,7 +328,7 @@ nav {
   width: 100%;
   height: auto;
   margin-bottom: auto;
-  background-image: url(images/Mask\ Group.svg);
+  background-image: url(./images/Mask\ Group.svg);
   background-position: right;
   background-position-y: top;
   background-repeat: no-repeat;
@@ -439,7 +475,7 @@ nav {
   color: #091e42;
   padding: 3vw;
   resize: initial;
-  background-image: url(images/comment-icon.svg);
+  background-image: url(./images/comment-icon.svg);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -535,7 +571,7 @@ nav {
 
 @media (min-width: 412px) {
   #s-1 {
-    background-image: url('images/header-illsutration-mobile.svg');
+    background-image: url('./images/header-illsutration-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -547,6 +583,10 @@ nav {
   }
 
   header {
+    display: none;
+  }
+
+  .navlinks.active {
     display: none;
   }
 
@@ -567,7 +607,7 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-image: url('images/Header-llustration-desktop.svg');
+    background-image: url('./images/Header-llustration-desktop.svg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0% 10% 0% 10%;
@@ -732,7 +772,7 @@ nav {
     width: 100%;
     height: auto;
     margin-bottom: 6vh;
-    background-image: url('images/illustration\ about\ me\ desktop.svg');
+    background-image: url('./images/illustration\ about\ me\ desktop.svg');
     background-position: right;
     background-position-y: top;
     background-repeat: no-repeat;
@@ -745,7 +785,7 @@ nav {
     align-items: center;
     width: 100%;
     height: auto;
-    background-image: url('images/Group.svg');
+    background-image: url('./images/Group.svg');
     background-position-y: bottom;
     background-size: 15%;
     background-repeat: no-repeat;
@@ -809,7 +849,7 @@ nav {
     line-height: 16px;
     font-weight: 600;
     font-size: 12px;
-    color: #36b37e;
+    color: #267e59;
     padding-left: 12px;
     padding-right: 12px;
     margin-top: 12px;
@@ -873,7 +913,7 @@ nav {
     color: #091e42;
     padding: 9px;
     resize: initial;
-    background-image: url(images/comment-icon.svg);
+    background-image: url(./images/comment-icon.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -923,9 +963,9 @@ nav {
 
   .form-con {
     background:
-      url("./images/Frame.svg") right bottom no-repeat,
-      url("./images/illustration-2-contact-form-desktop.svg") left 377px bottom 120px no-repeat,
-      url("./images/Frame-3.svg") left bottom no-repeat;
+      url("././images/Frame.svg") right bottom no-repeat,
+      url("././images/illustration-2-contact-form-desktop.svg") left 377px bottom 120px no-repeat,
+      url("././images/Frame-3.svg") left bottom no-repeat;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
