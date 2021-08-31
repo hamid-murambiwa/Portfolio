@@ -26,7 +26,8 @@ a {
 }
 
 label {
-  display: none;
+  color: transparent;
+  font-size: 1px;
 }
 
 nav {
