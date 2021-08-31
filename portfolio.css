@@ -25,11 +25,6 @@ a {
   display: flex;
 }
 
-label {
-  color: white;
-  font-size: 4px;
-}
-
 nav {
   justify-content: space-between;
   width: 100%;
