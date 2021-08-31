@@ -2,28 +2,29 @@ const menuBtn = document.querySelector('.menu');
 const menuList = document.querySelector('.navlinks');
 const menuItems = Array.from(document.querySelectorAll('.navlink-items'));
 const menuIcon = document.querySelector('.menu-icons');
-const mediaQuery = window.matchMedia('(min-width: 992px)');
+const body = document.querySelector('.page-container');
 
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.toggle('active');
   menuList.classList.toggle('active');
 
   if (menuBtn.classList.contains('active')) {
-    menuIcon.src = './images/Disabled.svg';
+    menuIcon.src = './style/images/Disabled.svg';
   } else {
-    // eslint-disable-next-line no-restricted-globals
-    location.reload();
+    window.location.reload();
   }
 });
 
 menuItems.forEach((item) => {
   item.addEventListener('click', () => {
     menuBtn.classList.toggle('active');
-    menuList.classList.toggle('active');
-    menuIcon.src = './images/Menu.svg';
+    menuList.classList.remove('active');
+    menuIcon.src = './style/images/Menu.svg';
   });
 });
 
-if (mediaQuery) {
-  menuIcon.setAttribute('style', 'position: relative');
-}
+window.addEventListener('resize', () => {
+  if (body.clientWidth >= 992 && menuList.classList.contains('active')) {
+    window.location.reload();
+  }
+});
