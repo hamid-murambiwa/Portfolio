@@ -2,22 +2,28 @@ const menuBtn = document.querySelector('.menu');
 const menuList = document.querySelector('.navlinks');
 const menuItems = Array.from(document.querySelectorAll('.navlink-items'));
 const menuIcon = document.querySelector('.menu-icons');
+const mediaQuery = window.matchMedia('(min-width: 992px)');
 
 menuBtn.addEventListener('click', () => {
-    menuBtn.classList.toggle('active');
-    menuList.classList.toggle('active');
+  menuBtn.classList.toggle('active');
+  menuList.classList.toggle('active');
 
-    if (menuBtn.classList.contains('active')) {
-        menuIcon.src = './images/Disabled.svg';
-    } else {
-        location.reload();
-    }
+  if (menuBtn.classList.contains('active')) {
+    menuIcon.src = './images/Disabled.svg';
+  } else {
+    // eslint-disable-next-line no-restricted-globals
+    location.reload();
+  }
 });
 
 menuItems.forEach((item) => {
-    item.addEventListener('click', () => {
-        menuBtn.classList.toggle('active');
-        menuList.classList.toggle('active');
-        menuIcon.src = './images/Menu.svg';
-    })
-})
+  item.addEventListener('click', () => {
+    menuBtn.classList.toggle('active');
+    menuList.classList.toggle('active');
+    menuIcon.src = './images/Menu.svg';
+  });
+});
+
+if (mediaQuery) {
+  menuIcon.setAttribute('style', 'position: relative');
+}
