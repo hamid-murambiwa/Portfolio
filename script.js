@@ -53,10 +53,10 @@ window.addEventListener('resize', () => {
 
 const mobilemobilePopUp = `<div class="db-con">
 <button class="disable-con" id="btn-hide">
-    <img src="${mobilePopUp.project_img}" alt="">
+    <img src="${mobilePopUp.project_img}" alt="Pop up exit button">
 </button>
 </div>
-<img src="${mobilePopUp.x_image}" alt="" class="P-img">
+<img src="${mobilePopUp.x_image}" alt="Modal project image" class="P-img">
 <h1>${mobilePopUp.Card_title}</h1>
 
 <ul class="flex">
