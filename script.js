@@ -94,10 +94,10 @@ pB.innerHTML = mobilemobilePopUp;
 
 const desktopdesktopPopUp = `<div class="db-con">
 <button class="disable-con"  id="btn-disappear">
-    <img src="${mobilePopUp.project_img}" alt="">
+    <img src="${mobilePopUp.project_img}" alt="Exit button image">
 </button>
 </div>
-<img src="${desktopPopUp.x_image}" alt="" class="P-img">
+<img src="${desktopPopUp.x_image}" alt="Modal project image" class="P-img">
 <br>
         <div class="sect">
 <h1>${mobilePopUp.Card_title}</h1>
