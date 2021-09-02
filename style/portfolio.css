@@ -743,12 +743,7 @@ nav {
 @media (min-width: 1000px) {
   #modal {
     display: none;
-  }
-
-  #modal-desktop {
-    position: fixed;
-    display: none;
-    padding: 150px 56px 150px 56px;
+    padding: 10px 16px 26px 16px;
     margin: 0;
   }
 
@@ -759,45 +754,63 @@ nav {
     height: 100vh;
     width: 100%;
     background-color: #c1c7d0;
+    z-index: 2;
   }
 
-  .modal-body-desktop {
+  .disable-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    border-style: none;
+    border-radius: 8px;
+  }
+
+  .db-con {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .modal-body {
     position: fixed;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    left: 18%;
-    top: 3%;
-    width: 65%;
+    align-items: center;
+    justify-content: flex-start;
+    left: 5%;
+    top: 2.5%;
+    width: 90%;
     height: 95vh;
     padding: 16px 16px;
     background: #fff;
     border-radius: 16px;
     mix-blend-mode: normal;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    gap: 32px;
   }
 
-  .modal-body-desktop h1 {
-    width: 70%;
+  .modal-body h1 {
+    width: 100%;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 32px;
+    line-height: 38px;
   }
 
-  .modal-body-desktop p {
+  .modal-body p {
+    font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 25px;
-    color: #344563;
+    font-size: 16px;
+    line-height: 24px;
+    float: left;
   }
 
-  .modal-desktop ul {
+  .modal ul {
     width: 100%;
   }
 
-  .modal-body-desktop .tags {
+  .modal-body .tags {
     border: none;
     border-radius: 3px;
     background: #ebf0ee;
@@ -810,15 +823,27 @@ nav {
     margin-right: 8px;
   }
 
+  .modal-details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
   .button-con {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: unset;
+    float: right;
   }
 
   .P-button {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     text-decoration: none;
     background-color: #257553;
@@ -827,17 +852,21 @@ nav {
     height: 35px;
     border-radius: 4px;
     font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
     border-style: none;
     cursor: pointer;
-    width: 49%;
+    width: unset;
+    margin-left: 12px;
+  }
+
+  .btn-img {
+    margin-left: 10px;
   }
 
   .P-img {
     width: auto;
-    height: 50vh;
   }
 
   .sect {
