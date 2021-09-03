@@ -32,6 +32,7 @@ window.addEventListener('resize', () => {
   }
 });
 
+// Data collection
 const PopUp = [{
   Card_title: 'Keeping track of hundreds of components',
   project_img: './style/images/Disabled.svg',
@@ -194,4 +195,21 @@ document.getElementById('btn-hide').addEventListener('click', () => {
 
 document.getElementById('btn-disappear').addEventListener('click', () => {
   document.getElementById('modal').style = 'display: none';
+});
+
+// form validation
+const FullName = document.getElementById('fullName');
+const Email = document.getElementById('emailInput');
+const form = document.getElementById('form');
+const errorElement = document.getElementById('ErrorMessages');
+
+form.addEventListener('submit', (e) => {
+  const messages = [];
+  if (FullName.value === '' || FullName.value == null) {
+    messages.push('Name is required');
+  }
+  if (messages.length > 0) {
+    e.preventDefault();
+    errorElement.innerText = messages.join(', ');
+  }
 });
