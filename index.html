@@ -125,13 +125,6 @@
         </div>
     </div>
 </div>
-
-    <div id="modal-desktop">
-            <div class="modal-con">
-                <div class="modal-body-desktop">     
-                </div>
-            </div>
-    </div>
     
 
     <section id="Works-grid">
@@ -276,19 +269,20 @@
             </h4>
         </div>
 
-        <form id="form-grid" action="https://formspree.io/f/xvodvrjv" method="POST">
+        <form class="form-grid" id="form" action="https://formspree.io/f/xvodvrjv" method="POST">
 
-            <input type="text" placeholder="Full name" name="full-name" maxlength="30" required>
+            <input type="text" placeholder="Full name" name="full-name" maxlength="30" class="fullName" value="" required>
 
-            <input type="email" placeholder="Email address" name="email" required>
-
+            <input type="email" placeholder="Email address" name="email" value=" " id="eInput" required>
             <textarea placeholder="Enter text here" name="comment-section" maxlength="500" required></textarea>
 
             <div class="submit_button">
-                <button type="submit" class="flex btn" name="comment-section">
+                <ul id="ErrorMessages"></ul>
+                <button type="submit" class="flex btn" name="comment-section" id="fd" value="Subscribe">
                     Get in touch
                 </button>
             </div>
+            
         </form>
     </div>
 
@@ -338,7 +332,7 @@
         </p>
     </div>
 
-    <img src="/style/images/Light.svg" alt="" class="light">
+    <img src="./style/images/Light.svg" alt="Bar" class="light">
     <script src="./script.js" type="text/javascript"></script>
 </body>
 

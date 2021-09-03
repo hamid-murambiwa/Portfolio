@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -537,7 +536,7 @@ nav {
   margin-top: 5vh;
 }
 
-#form-grid {
+.form-grid {
   display: grid;
   grid-template-columns: 100%;
   align-items: center;
@@ -551,7 +550,7 @@ nav {
   margin-top: 10vh;
 }
 
-#form-grid input {
+.form-grid input {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -569,7 +568,11 @@ nav {
   line-height: 24px;
 }
 
-#form-grid textarea {
+.form-grid input:valid {
+  border-color: rgb(0, 153, 25);
+}
+
+.form-grid textarea {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -674,6 +677,13 @@ nav {
   text-align: center;
   width: 100%;
   color: #172b4d;
+}
+
+#ErrorMessages {
+  height: auto;
+  line-height: 15px;
+  margin-top: -2px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 325px) {
@@ -1160,7 +1170,7 @@ nav {
     color: #344563;
   }
 
-  #form-grid {
+  .form-grid {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1173,7 +1183,7 @@ nav {
     width: 60%;
   }
 
-  #form-grid input {
+  .form-grid input {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1191,7 +1201,11 @@ nav {
     line-height: 24px;
   }
 
-  #form-grid textarea {
+  .form-grid input:valid {
+    border-color: rgb(0, 153, 25);
+  }
+
+  .form-grid textarea {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1293,5 +1307,12 @@ nav {
     to {
       transform: rotate(0deg) scale(1.5, 1.5);
     }
+  }
+
+  #ErrorMessages {
+    height: auto;
+    line-height: 15px;
+    margin-top: -5px;
+    margin-bottom: 5px;
   }
 }
