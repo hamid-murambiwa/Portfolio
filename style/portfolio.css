@@ -568,10 +568,6 @@ nav {
   line-height: 24px;
 }
 
-.form-grid input:invalid {
-  border-color: #900;
-}
-
 .form-grid input:valid {
   border-color: rgb(0, 153, 25);
 }
@@ -681,6 +677,13 @@ nav {
   text-align: center;
   width: 100%;
   color: #172b4d;
+}
+
+#ErrorMessages {
+  height: auto;
+  line-height: 15px;
+  margin-top: -2px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 325px) {
@@ -1198,6 +1201,10 @@ nav {
     line-height: 24px;
   }
 
+  .form-grid input:valid {
+    border-color: rgb(0, 153, 25);
+  }
+
   .form-grid textarea {
     display: flex;
     flex-direction: column;
@@ -1300,5 +1307,12 @@ nav {
     to {
       transform: rotate(0deg) scale(1.5, 1.5);
     }
+  }
+
+  #ErrorMessages {
+    height: auto;
+    line-height: 15px;
+    margin-top: -5px;
+    margin-bottom: 5px;
   }
 }

@@ -193,27 +193,46 @@ document.getElementById('btn-hide').addEventListener('click', () => {
   document.getElementById('modal').style = 'display: none';
 });
 
-document.getElementById('btn-disappear').addEventListener('click', () => {
-  document.getElementById('modal').style = 'display: none';
-});
-
 // form validation
+
 const IsLowerCase = (Check) => /[A-Z]/g.test(Check);
-const Email = document.querySelector('.emailInput');
+const Email = document.querySelector('#eInput');
 const form = document.querySelector('#form');
 const errorElement = document.querySelector('#ErrorMessages');
+const Name = document.querySelector('.fullName');
+// Email.style.borderColor = '#D0D9D4';
+// Name.style.borderColor = '#D0D9D4';
 
 form.addEventListener('submit', (e) => {
-  const emailV = [];
+  const errors = [];
   const Evalue = Email.value;
   if (IsLowerCase(Evalue)) {
     e.preventDefault();
-    emailV.push('<p>Please enter a valid email address.</p>');
-  }
-  if (emailV.length > 0) {
-    e.preventDefault();
-    errorElement.innerHTML = emailV.join(', ');
-    errorElement.style.fontSize = '16px';
+    errors.push('<li>*Please enter a valid email address.</li>');
+    errorElement.style.display = 'flex';
+    errorElement.innerHTML = errors.join(' ');
+    errorElement.style.fontSize = '10px';
     errorElement.style.color = 'red';
+    errorElement.style.Gap = '1px';
+    Email.style.border = '1px solid #900';
+    Email.style.boxShadow = '1.5px 1.5px 1.5px rgba(174, 17, 17, 0.509)';
+    errorElement.style.fontFamily = "''Inter', sans-serif'";
+  }
+
+  const Fvalue = Name.value;
+  if (Fvalue.length < 2) {
+    e.preventDefault();
+    Name.style.borderColor = '#900';
+    errors.push('<li>*Please enter a valid name.</li>');
+    errorElement.style = 'display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start';
+    errorElement.innerHTML = errors.join(' ');
+    errorElement.style.fontSize = '10px';
+    errorElement.style.color = 'red';
+    errorElement.style.Gap = '1px';
+  } else if (!Evalue.valid) {
+    Email.style.borderColor = '#900';
+  } else {
+    Email.style.borderColor = 'rgb(0, 153, 25)';
+    Name.style.borderColor = 'rgb(0, 153, 25)';
   }
 });
