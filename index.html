@@ -270,19 +270,15 @@
         </div>
 
         <form class="form-grid" id="form" action="https://formspree.io/f/xvodvrjv" method="POST">
-
-            <input type="text" placeholder="Full name" name="full-name" maxlength="30" class="fullName" value="" required>
-
-            <input type="email" placeholder="Email address" name="email" value="" required class="emailInput" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$">
-
+            <input type="text" placeholder="Full name" name="full-name" maxlength="30" id="fullName" value="" required>
+            <input type="email" placeholder="Email address" name="email" value="" required class="emailInput">
             <textarea placeholder="Enter text here" name="comment-section" maxlength="500" required></textarea>
-
             <div class="submit_button">
-                <button type="submit" class="flex btn" name="comment-section" id="f-d">
+                <button type="submit" class="flex btn" name="comment-section" id="fd" value="Subscribe">
                     Get in touch
                 </button>
             </div>
-            <div class="ErrorMessages"></div>
+            <span id="ErrorMessages"></span>
         </form>
     </div>
 
