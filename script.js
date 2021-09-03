@@ -200,8 +200,6 @@ const Email = document.querySelector('#eInput');
 const form = document.querySelector('#form');
 const errorElement = document.querySelector('#ErrorMessages');
 const Name = document.querySelector('.fullName');
-// Email.style.borderColor = '#D0D9D4';
-// Name.style.borderColor = '#D0D9D4';
 
 form.addEventListener('submit', (e) => {
   const errors = [];
