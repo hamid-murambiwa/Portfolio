@@ -198,18 +198,30 @@ document.getElementById('btn-disappear').addEventListener('click', () => {
 });
 
 // form validation
+const IsLowerCase = (Check) => /[a-z]/.test(Check);
 const FullName = document.getElementById('fullName');
-const Email = document.getElementById('emailInput');
-const form = document.getElementById('form');
-const errorElement = document.getElementById('ErrorMessages');
+const Email = document.querySelector('.emailInput');
+const form = document.querySelector('#form');
+const errorElement = document.querySelector('.ErrorMessages');
 
 form.addEventListener('submit', (e) => {
-  const messages = [];
-  if (FullName.value === '' || FullName.value == null) {
-    messages.push('Name is required');
+  const emailV = [];
+  const Evalue = Email.value;
+  if (!IsLowerCase(Evalue)) {
+    emailV.push('<p>Please enter a valid email address.</p>');
+  } else if (Email.value === '' || Email.value === null) {
+    emailV.push(' <p>Please fill the Email field</p>');
   }
-  if (messages.length > 0) {
+  if (emailV.length > 0) {
     e.preventDefault();
-    errorElement.innerText = messages.join(', ');
+    errorElement.innerText = emailV.join(', ');
+    errorElement.style.fontSize = '16px';
+    errorElement.style.color = 'red';
   }
+  console.log(emailV);
 });
+
+// function check() {
+//   return console.log(Email.value);
+// }
+// check();
