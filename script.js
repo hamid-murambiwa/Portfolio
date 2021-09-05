@@ -200,18 +200,34 @@ const form = document.querySelector('#form');
 const errorElement = document.querySelector('#ErrorMessages');
 const Name = document.querySelector('.fullName');
 const Comments = document.querySelector('#Comments');
+// Setting up local storage for the form input values
 const inputData = {
   nameValue: '',
   emailValue: '',
   commentValue: '',
 };
-
-// Setting up local storage for the form input values
+// const Istring = JSON.stringify(inputData);
 const returnIstring = localStorage.getItem('InputData');
 const returnInputData = JSON.parse(returnIstring);
+
 Email.value = returnInputData.emailValue;
 Name.value = returnInputData.nameValue;
 Comments.value = returnInputData.commentValue;
+
+Name.addEventListener('change', () => {
+  inputData.nameValue = Name.value;
+  localStorage.setItem('InputData', JSON.stringify(inputData));
+});
+
+Email.addEventListener('change', () => {
+  inputData.emailValue = Email.value;
+  localStorage.setItem('InputData', JSON.stringify(inputData));
+});
+
+Comments.addEventListener('change', () => {
+  inputData.commentValue = Comments.value;
+  localStorage.setItem('InputData', JSON.stringify(inputData));
+});
 
 form.addEventListener('submit', (e) => {
   const errors = [];
@@ -251,12 +267,4 @@ form.addEventListener('submit', (e) => {
     Name.style.borderColor = 'rgb(0, 153, 25)';
     Name.style.boxShadow = 'none';
   }
-
-  // save the user input data into local storage
-  const Cvalue = Comments.value;
-  inputData.nameValue = Fvalue;
-  inputData.emailValue = Evalue;
-  inputData.commentValue = Cvalue;
-  const Istring = JSON.stringify(inputData);
-  localStorage.setItem('InputData', Istring);
 });
