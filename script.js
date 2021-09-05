@@ -194,16 +194,30 @@ document.getElementById('btn-hide').addEventListener('click', () => {
 });
 
 // form validation
-
 const IsLowerCase = (Check) => /[A-Z]/g.test(Check);
 const Email = document.querySelector('#eInput');
 const form = document.querySelector('#form');
 const errorElement = document.querySelector('#ErrorMessages');
 const Name = document.querySelector('.fullName');
+const Comments = document.querySelector('#Comments');
+const inputData = {
+  nameValue: '',
+  emailValue: '',
+  commentValue: '',
+};
+
+// Setting up local storage for the form input values
+const returnIstring = localStorage.getItem('InputData');
+const returnInputData = JSON.parse(returnIstring);
+Email.value = returnInputData.emailValue;
+Name.value = returnInputData.nameValue;
+Comments.value = returnInputData.commentValue;
 
 form.addEventListener('submit', (e) => {
   const errors = [];
   const Evalue = Email.value;
+
+  // check validity of the user's email input data
   if (IsLowerCase(Evalue)) {
     e.preventDefault();
     errors.push('<li>*Please enter a valid email address.</li>');
@@ -212,11 +226,15 @@ form.addEventListener('submit', (e) => {
     errorElement.style.fontSize = '10px';
     errorElement.style.color = 'red';
     errorElement.style.Gap = '1px';
-    Email.style.border = '1px solid #900';
+    Email.style.borderColor = '#900';
     Email.style.boxShadow = '1.5px 1.5px 1.5px rgba(174, 17, 17, 0.509)';
     errorElement.style.fontFamily = "''Inter', sans-serif'";
+  } else if (!IsLowerCase(Evalue)) {
+    Email.style.borderColor = 'rgb(0, 153, 25)';
+    Email.style.boxShadow = 'none';
   }
 
+  // check validity of the user's name input data
   const Fvalue = Name.value;
   if (Fvalue.length < 2) {
     e.preventDefault();
@@ -227,10 +245,18 @@ form.addEventListener('submit', (e) => {
     errorElement.style.fontSize = '10px';
     errorElement.style.color = 'red';
     errorElement.style.Gap = '1px';
-  } else if (!Evalue.valid) {
-    Email.style.borderColor = '#900';
-  } else {
-    Email.style.borderColor = 'rgb(0, 153, 25)';
+    Name.style.borderColor = '#900';
+    Name.style.boxShadow = '1.5px 1.5px 1.5px rgba(174, 17, 17, 0.509)';
+  } else if (Fvalue.length > 2) {
     Name.style.borderColor = 'rgb(0, 153, 25)';
+    Name.style.boxShadow = 'none';
   }
+
+  // save the user input data into local storage
+  const Cvalue = Comments.value;
+  inputData.nameValue = Fvalue;
+  inputData.emailValue = Evalue;
+  inputData.commentValue = Cvalue;
+  const Istring = JSON.stringify(inputData);
+  localStorage.setItem('InputData', Istring);
 });
