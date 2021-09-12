@@ -34,11 +34,15 @@ nav {
   color: #3a4a42;
 }
 
+.navlink-items a:hover {
+  border-bottom: 3px solid #3a4a42;
+}
+
 .navlinks {
   display: none;
   justify-content: space-between;
   color: #172b4d;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -58,7 +62,7 @@ nav {
   color: #3a4a42;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 54px;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -122,7 +126,7 @@ nav {
   color: #fff;
   height: 3rem;
   border-radius: 4px;
-  font-size: 17px;
+  font-size: 13px;
   line-height: 24px;
   border-style: none;
   cursor: pointer;
@@ -193,14 +197,14 @@ nav {
   width: 100%;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 38px;
 }
 
 .modal-body p {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
 }
 
@@ -215,7 +219,7 @@ nav {
   text-align: center;
   padding: 8px 12px;
   line-height: 16px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
   color: #3a4a42;
   margin-right: 8px;
@@ -239,7 +243,7 @@ nav {
   border-radius: 4px;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 24px;
   border-style: none;
   cursor: pointer;
@@ -269,7 +273,7 @@ nav {
 
 .logo {
   color: #28352f;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28px;
   font-weight: 600;
   margin-left: 12px;
@@ -292,7 +296,7 @@ nav {
 
 .about-container p {
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   padding: 0 12px;
@@ -301,7 +305,7 @@ nav {
 }
 
 #s-1 p {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 400;
   color: #172b4d;
   margin-top: 5vw;
@@ -337,7 +341,7 @@ nav {
   margin-right: 8%;
   font-style: normal;
   font-weight: bold;
-  font-size: 8vw;
+  font-size: 6vw;
 }
 
 .heading-title {
@@ -396,7 +400,7 @@ nav {
   text-align: center;
   padding: 8px 12px;
   line-height: 16px;
-  font-size: 12px;
+  font-size: 9px;
   font-weight: 600;
   color: #3a4a42;
 }
@@ -409,7 +413,7 @@ nav {
   height: 6vh;
   background: #fff;
   text-align: center;
-  font-size: 12px;
+  font-size: 9px;
   line-height: 16px;
   font-weight: 600;
   color: #36b37e;
@@ -421,7 +425,7 @@ nav {
 }
 
 .card-content h3 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 32px;
   color: #3a4a42;
@@ -458,7 +462,7 @@ nav {
 
 .about-container h2 {
   color: #172b4d;
-  font-size: 40px;
+  font-size: 28px;
   line-height: 52px;
   font-weight: 700;
 }
@@ -468,7 +472,7 @@ nav {
 }
 
 .about-container h1 {
-  font-size: 7vw;
+  font-size: 5vw;
   color: #172b4d;
   margin-top: 9vh;
 }
@@ -517,7 +521,7 @@ nav {
 }
 
 .card-content-2 h3 {
-  font-size: 7.6vw;
+  font-size: 5.6vw;
   font-weight: 600;
   margin-top: 10px;
   color: #344563;
@@ -529,7 +533,7 @@ nav {
   margin-left: 6vw;
   margin-right: 6vw;
   font-weight: bold;
-  font-size: 9vw;
+  font-size: 7vw;
   line-height: 12vw;
   text-align: center;
   color: #172b4d;
@@ -543,8 +547,8 @@ nav {
   justify-content: center;
   text-align: center;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 28px;
+  line-height: 45px;
   margin-left: 3vh;
   margin-right: 3vh;
   margin-top: 10vh;
@@ -564,7 +568,7 @@ nav {
   padding: 3vw;
   color: #6b778c;
   font-weight: normal;
-  font-size: 3.3vw;
+  font-size: 2.3vw;
   line-height: 24px;
 }
 
@@ -586,7 +590,7 @@ nav {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-weight: normal;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   line-height: 24px;
   color: #091e42;
   padding: 3vw;
@@ -638,7 +642,7 @@ nav {
 
 .email {
   font-weight: normal;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 7vw;
   color: #42526e;
   height: 30vh;
@@ -654,7 +658,7 @@ nav {
 }
 
 .section-title h1 {
-  font-size: 37px;
+  font-size: 25px;
   line-height: 40px;
   margin-top: 29%;
   font-weight: 700;
@@ -692,23 +696,23 @@ nav {
   }
 
   .modal-body h1 {
-    font-size: 28px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 27px;
   }
 
   .modal-body p {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 8px;
+    line-height: 16px;
   }
 
   .modal-body .tags {
-    line-height: 10px;
-    font-size: 8px;
+    line-height: 7px;
+    font-size: 6px;
   }
 
   .P-button {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 16px;
   }
 
   .P-img {
@@ -726,23 +730,23 @@ nav {
 
 @media (max-width: 627px) {
   .modal-body h1 {
-    font-size: 28px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 25px;
   }
 
   .modal-body p {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 9px;
+    line-height: 16px;
   }
 
   .modal-body .tags {
-    line-height: 10px;
-    font-size: 8px;
+    line-height: 8px;
+    font-size: 6px;
   }
 
   .P-button {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 9px;
+    line-height: 17px;
   }
 
   .P-img {
@@ -804,15 +808,15 @@ nav {
     width: 100%;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 38px;
   }
 
   .modal-body p {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 20px;
     float: left;
   }
 
@@ -827,7 +831,7 @@ nav {
     text-align: center;
     padding: 8px 12px;
     line-height: 16px;
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 600;
     color: #3a4a42;
     margin-right: 8px;
@@ -863,8 +867,8 @@ nav {
     border-radius: 4px;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 21px;
     border-style: none;
     cursor: pointer;
     width: unset;
@@ -915,6 +919,7 @@ nav {
     align-items: center;
     background-image: url('./images/Header-llustration-desktop.svg');
     background-size: cover;
+    background-position-x: center;
     background-repeat: no-repeat;
     padding: 0% 10% 0% 10%;
     width: 100%;
@@ -930,8 +935,8 @@ nav {
   }
 
   .section-title h1 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 28px;
+    line-height: 35px;
     margin-top: 100px;
     font-weight: 700;
   }
@@ -956,7 +961,7 @@ nav {
   }
 
   #s-1 p {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
     text-align: center;
     color: #172b4d;
@@ -1001,8 +1006,8 @@ nav {
     margin: 0;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 28px;
+    line-height: 36px;
   }
 
   .section-heading img {
@@ -1064,8 +1069,8 @@ nav {
 
   .card-content h3 {
     font-weight: 600;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 20px;
     margin-top: 0;
     color: #3a4a42;
   }
@@ -1098,8 +1103,8 @@ nav {
   }
 
   .about-container h2 {
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 28px;
+    line-height: 36px;
     color: #172b4d;
     margin-top: 140px;
   }
@@ -1154,7 +1159,7 @@ nav {
     text-align: center;
     line-height: 16px;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 8px;
     color: #267e59;
     padding-left: 12px;
     padding-right: 12px;
@@ -1165,8 +1170,8 @@ nav {
 
   .card-content-2 h3 {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 19px;
+    line-height: 28px;
     color: #344563;
   }
 
@@ -1177,8 +1182,8 @@ nav {
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 28px;
+    line-height: 37px;
     margin-top: 0;
     width: 60%;
   }
@@ -1197,8 +1202,8 @@ nav {
     padding: 6px;
     color: #6b778c;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 11px;
+    line-height: 20px;
   }
 
   .form-grid input:valid {
@@ -1218,8 +1223,8 @@ nav {
     margin-top: 4vh;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 11px;
+    line-height: 20px;
     color: #091e42;
     padding: 9px;
     resize: initial;
@@ -1261,8 +1266,8 @@ nav {
     display: flex;
     align-items: center;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 52px;
+    font-size: 19px;
+    line-height: 37px;
     text-align: start;
     color: #172b4d;
     margin-top: 5vh;
