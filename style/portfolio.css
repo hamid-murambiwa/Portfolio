@@ -716,6 +716,14 @@ nav {
   }
 }
 
+@media (max-width: 412px) {
+  #s-1 {
+    background-image: url('./images/header-illsutration-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 @media (max-width: 627px) {
   .modal-body h1 {
     font-size: 28px;
@@ -739,14 +747,6 @@ nav {
 
   .P-img {
     width: 100%;
-  }
-}
-
-@media (max-width: 412px) {
-  #s-1 {
-    background-image: url('./images/header-illsutration-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
