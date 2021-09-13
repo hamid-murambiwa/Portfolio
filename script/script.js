@@ -210,9 +210,11 @@ const inputData = {
 const returnIstring = localStorage.getItem('InputData');
 const returnInputData = JSON.parse(returnIstring);
 
-Email.value = returnInputData.emailValue;
-Name.value = returnInputData.nameValue;
-Comments.value = returnInputData.commentValue;
+if (returnInputData !== null) {
+  Email.value = returnInputData.emailValue;
+  Name.value = returnInputData.nameValue;
+  Comments.value = returnInputData.commentValue;
+}
 
 Name.addEventListener('change', () => {
   inputData.nameValue = Name.value;
