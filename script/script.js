@@ -33,77 +33,155 @@ window.addEventListener('resize', () => {
 });
 
 // Data collection
-const PopUp = [{
-  Card_title: 'Keeping track of hundreds of components',
-  project_img: './style/images/Disabled.svg',
-  x_image: './style/images/Snapshoot-Portfolio.svg',
-  button_image1: './style/images/P-github-icon.svg',
-  button_image2: './style/images/see-live-icon.svg',
-  tags: ['Ruby on rails', 'css', 'javascript'],
-  button_name1: 'See Live',
-  button_name2: 'See Source',
-  live_version: 'https://hamid-murambiwa.github.io/Portfolio/',
-  source_code: 'https://github.com/hamid-murambiwa/Portfolio',
-  title1: 'Multi-Post Stories',
-  title2: 'Gain+Glory',
-  btnName: 'See Project',
-  project_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-},
-
-{
-  Card_title: 'Keeping track of hundreds of components',
-  project_img: './style/images/Disabled.svg',
-  x_image: './style/images/Snapshoot-Portfolio.svg',
-  button_image1: './style/images/P-github-icon.svg',
-  button_image2: './style/images/see-live-icon.svg',
-  tags: ['Ruby on rails', 'css', 'javascript', 'html'],
-  button_name1: 'See Live',
-  button_name2: 'See Source',
-  live_version: 'https://hamid-murambiwa.github.io/Portfolio/',
-  source_code: 'https://github.com/hamid-murambiwa/Portfolio',
-  title1: 'Multi-Post Stories',
-  title2: 'Gain+Glory',
-  btnName: 'See Project',
-},
+const PopUp = [
+  {
+    Card_title: 'Keeping track of hundreds of components',
+    project_img: './style/images/Disabled.svg',
+    x_image: './style/images/home-page.png',
+    button_image1: './style/images/P-github-icon.svg',
+    button_image2: './style/images/see-live-icon.svg',
+    tags: ['HTML', 'CSS', 'Javascript', 'NPM'],
+    button_name1: 'See Live',
+    button_name2: 'See Source',
+    title1: 'Conference page',
+    title2: 'Microverse Project',
+    btnName: 'See Project',
+    project_description: 'This is a conference page for a beer company, that has a home and an about me page. The page announces the next beer conference hosted by the company. Javascript, CSS, and HTML were used for this project.',
+    key: 0,
+    web_link: 'https://hamid-murambiwa.github.io/JavaScript-capstone-project---Conference-page/',
+    github_link: 'https://github.com/hamid-murambiwa/JavaScript-capstone-project---Conference-page',
+  },
+  {
+    Card_title: 'Keeping track of hundreds of components',
+    project_img: './style/images/Disabled.svg',
+    x_image: './style/images/Screenshot 2021-10-25 at 10.24.20.png',
+    button_image1: './style/images/P-github-icon.svg',
+    button_image2: './style/images/see-live-icon.svg',
+    tags: ['Webpack', 'CSS', 'Javascript', 'HTML'],
+    button_name1: 'See Live',
+    button_name2: 'See Source',
+    title1: 'To Do list',
+    title2: 'Microverse Project',
+    btnName: 'See Project',
+    project_description: 'A simple page with a list of To-Do tasks. Users can add, check, clear, and delete tasks. Built with Webpack, and Javascript.',
+    key: 1,
+    web_link: 'https://hamid-murambiwa.github.io/To-Do-list/',
+    github_link: 'https://github.com/hamid-murambiwa/To-Do-list',
+  },
+  {
+    Card_title: 'Keeping track of hundreds of components',
+    project_img: './style/images/Disabled.svg',
+    x_image: './style/images/133600920-7d09cc35-cc77-427f-b8e6-cb2cdcb7f211.png',
+    button_image1: './style/images/P-github-icon.svg',
+    button_image2: './style/images/see-live-icon.svg',
+    tags: ['NPM', 'CSS', 'Javascript', 'HTML'],
+    button_name1: 'See Live',
+    button_name2: 'See Source',
+    title1: 'Awesome books',
+    title2: 'Microverse Project',
+    btnName: 'See Project',
+    project_description: 'A simple website application where the user can add and remove books from a list. Built with Html/CSS and JavaScript.',
+    key: 2,
+    web_link: 'https://hamid-murambiwa.github.io/Awesome-books/',
+    github_link: 'https://github.com/hamid-murambiwa/Awesome-books',
+  },
+  {
+    Card_title: 'Keeping track of hundreds of components',
+    project_img: './style/images/Disabled.svg',
+    x_image: './style/images/Screenshot 2021-12-01 at 10.31.09.png',
+    button_image1: './style/images/P-github-icon.svg',
+    button_image2: './style/images/see-live-icon.svg',
+    tags: ['React', 'CSS', 'Javascript', 'HTML'],
+    button_name1: 'See Live',
+    button_name2: 'See Source',
+    title1: 'Math magicians Project',
+    title2: 'Microverse Project',
+    btnName: 'See Project',
+    project_description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. Javascript, React, CSS, and HTML were used for this project.',
+    key: 3,
+    web_link: 'https://mm-calculator.herokuapp.com/',
+    github_link: 'https://github.com/hamid-murambiwa/Magic-Calculator',
+  },
+  {
+    Card_title: 'Keeping track of hundreds of components',
+    project_img: './style/images/Disabled.svg',
+    x_image: './style/images/Screenshot 2021-11-12 at 15.11.09.png',
+    button_image1: './style/images/P-github-icon.svg',
+    button_image2: './style/images/see-live-icon.svg',
+    tags: ['Webpack', 'CSS', 'Javascript', 'HTML'],
+    button_name1: 'See Live',
+    button_name2: 'See Source',
+    title1: 'Leaderboard',
+    title2: 'Microverse Project',
+    btnName: 'See Project',
+    project_description: 'This web page displays a list of scores that are retrieved from an API then displayed in the web DOM elements. I used Javascript, CSS, HTML, and Webpack for this project.',
+    key: 4,
+    web_link: 'https://hamid-murambiwa.github.io/Leaderboard/',
+    github_link: 'https://github.com/hamid-murambiwa/Leaderboard',
+  },
+  {
+    Card_title: 'Keeping track of hundreds of components',
+    project_img: './style/images/Disabled.svg',
+    x_image: './style/images/Screenshot 2021-12-12 at 14.55.30.png',
+    button_image1: './style/images/P-github-icon.svg',
+    button_image2: './style/images/see-live-icon.svg',
+    tags: ['React', 'Redux', 'Javascript', 'CSS'],
+    button_name1: 'See Live',
+    button_name2: 'See Source',
+    title1: 'Bookstore',
+    title2: 'Microverse Project',
+    btnName: 'See Project',
+    project_description: 'This is a web application for all fans of books. It is a Single Page App (SPA) that allows users to create and remove a book. Javascript, Redux, React, and HTML were used for this project.',
+    key: 5,
+    web_link: '',
+    github_link: 'https://github.com/hamid-murambiwa/book_store',
+  },
 ];
-
+console.log(PopUp[1].project_description);
 // Modal content
-const PopUpPage = `<div class="db-con">
-<button class="disable-con" id="btn-hide">
-    <img src="${PopUp[0].project_img}" alt="Pop up exit button">
-</button>
-</div>
-<img src="${PopUp[0].x_image}" alt="Modal project image" class="P-img">
-<div class="modal-details">
-<h1>${PopUp[0].Card_title}</h1>
-<ul class="flex">
-<li class="flex tags">
-  ${PopUp[0].tags[0]}
-</li>
-<li class="flex tags">
-  ${PopUp[0].tags[1]}
-</li>
-<li class="flex tags">
-  ${PopUp[0].tags[2]}
-</li>
-</ul>
-<p>
-${PopUp[0].project_description}
-</p>
-<div class="button-con">
-<button class="P-button">
-    ${PopUp[0].button_name1}
-    <img src="${PopUp[0].button_image1}" alt="See live icon" class="btn-img">
-</button>
-<button class="P-button">
-    ${PopUp[0].button_name2}
-    <img src="${PopUp[0].button_image2}" alt="Github icon" class="btn-img">
-</button>
-</div>
-</div>
-`;
+function addPopUp(key) {
+  console.log(PopUp[key].project_description);
+  const PopUpPage = `<div class="db-con">
+  <button class="disable-con" id="btn-hide">
+      <img src="${PopUp[key].project_img}" alt="Pop up exit button">
+  </button>
+  </div>
+  <img src="${PopUp[key].x_image}" alt="Modal project image" class="P-img">
+  <div class="modal-details">
+  <h1>${PopUp[key].Card_title}</h1>
+  <ul class="flex">
+  <li class="flex tags">
+    ${PopUp[key].tags[0]}
+  </li>
+  <li class="flex tags">
+    ${PopUp[key].tags[1]}
+  </li>
+  <li class="flex tags">
+    ${PopUp[key].tags[2]}
+  </li>
+  </ul>
+  <p>
+  ${PopUp[key].project_description}
+  </p>
+  <div class="button-con">
+  <a href="${PopUp[key].web_link}" class="P-button">
+      ${PopUp[key].button_name1}
+      <img src="${PopUp[key].button_image1}" alt="See live icon" class="btn-img">
+  </a>
+  <a href="${PopUp[key].github_link}"class="P-button">
+      ${PopUp[key].button_name2}
+      <img src="${PopUp[key].button_image2}" alt="Github icon" class="btn-img">
+  </a>
+  </div>
+  </div>
+  `;
 
-pB.innerHTML = PopUpPage;
+  pB.innerHTML = PopUpPage;
+
+  document.getElementById('btn-hide').addEventListener('click', () => {
+    document.getElementById('modal').style = 'display: none';
+  });
+}
 
 // Project section of the page.
 const projects = `<div class="Card">
@@ -120,16 +198,30 @@ const projects = `<div class="Card">
 // eslint-disable-next-line no-plusplus
 for (let i = 0; i < 6; i++) {
   projectCards.innerHTML += projects;
-  const h1 = document.createElement('h3');
-  h1.innerHTML = PopUp[1].title1;
+  const h1 = document.createElement('h1');
+  h1.innerHTML = PopUp[i].title1;
+
+  const wIcon = document.createElement('div');
+  wIcon.id = 'wIcon';
+  const wImg = document.createElement('img');
+  wImg.id = 'wImg';
+  wImg.src = PopUp[i].x_image;
+
+  wIcon.appendChild(wImg);
+
+  const webImg = Array.from(document.querySelectorAll('.Card'));
+  webImg.forEach((Card) => {
+    Card.appendChild(wIcon);
+  });
 
   const headings = Array.from(document.querySelectorAll('.card-content div'));
   headings.forEach((Card) => {
     Card.appendChild(h1);
   });
 
-  const h2 = document.createElement('h3');
-  h2.innerHTML = PopUp[1].title2;
+  const h2 = document.createElement('h4');
+  h2.id = 'h2t';
+  h2.innerHTML = PopUp[i].title2;
 
   const headings2 = Array.from(document.querySelectorAll('.card-content div'));
   headings2.forEach((Card2) => {
@@ -138,7 +230,7 @@ for (let i = 0; i < 6; i++) {
 
   const list = document.createElement('li');
   list.className = 'flex tags';
-  list.innerHTML = PopUp[1].tags[0];
+  list.innerHTML = PopUp[i].tags[0];
 
   const li = Array.from(document.querySelectorAll('.card-content ul'));
   li.forEach((lis) => {
@@ -147,7 +239,7 @@ for (let i = 0; i < 6; i++) {
 
   const list2 = document.createElement('li');
   list2.className = 'flex tags';
-  list2.innerHTML = PopUp[1].tags[1];
+  list2.innerHTML = PopUp[i].tags[1];
 
   const li2 = Array.from(document.querySelectorAll('.card-content ul'));
   li2.forEach((lis2) => {
@@ -156,7 +248,7 @@ for (let i = 0; i < 6; i++) {
 
   const list3 = document.createElement('li');
   list3.className = 'flex tags';
-  list3.innerHTML = PopUp[1].tags[2];
+  list3.innerHTML = PopUp[i].tags[2];
 
   const li3 = Array.from(document.querySelectorAll('.card-content ul'));
   li3.forEach((lis3) => {
@@ -165,7 +257,7 @@ for (let i = 0; i < 6; i++) {
 
   const list4 = document.createElement('li');
   list4.className = 'flex tags';
-  list4.innerHTML = PopUp[1].tags[3];
+  list4.innerHTML = PopUp[i].tags[3];
 
   const li4 = Array.from(document.querySelectorAll('.card-content ul'));
   li4.forEach((lis4) => {
@@ -174,7 +266,8 @@ for (let i = 0; i < 6; i++) {
 
   const button = document.createElement('button');
   button.className = 'flex btn btn-e';
-  button.innerHTML = PopUp[1].btnName;
+  button.id = PopUp[i].key;
+  button.innerHTML = PopUp[i].btnName;
 
   const btn = Array.from(document.querySelectorAll('.card-content'));
   btn.forEach((b) => {
@@ -185,12 +278,10 @@ for (let i = 0; i < 6; i++) {
 const buttonDisplay = Array.from(document.querySelectorAll('.btn-e'));
 buttonDisplay.forEach((button) => {
   button.addEventListener('click', () => {
+    console.log(button.id);
+    addPopUp(button.id);
     document.getElementById('modal').style = 'display: flex';
   });
-});
-
-document.getElementById('btn-hide').addEventListener('click', () => {
-  document.getElementById('modal').style = 'display: none';
 });
 
 // form validation

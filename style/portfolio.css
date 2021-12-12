@@ -30,6 +30,12 @@ nav {
   padding: 2vw;
 }
 
+#wImg {
+  width: 50% !important;
+  height: auto !important;
+  border-radius: 10px;
+}
+
 .navlink-items a {
   color: #3a4a42;
 }
@@ -756,6 +762,12 @@ nav {
 }
 
 @media (min-width: 700px) {
+  #wImg {
+    width: 70% !important;
+    height: auto !important;
+    border-radius: 10px;
+  }
+
   #modal {
     display: none;
     padding: 10px 16px 26px 16px;
@@ -881,7 +893,11 @@ nav {
   }
 
   .P-img {
-    width: auto;
+    width: 50%;
+  }
+
+  #h2t {
+    font-size: 12px;
   }
 
   .sect {
