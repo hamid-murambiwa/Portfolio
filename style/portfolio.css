@@ -191,6 +191,7 @@ nav {
   border-radius: 16px;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  overflow-y: scroll;
 }
 
 .modal-body h1 {
