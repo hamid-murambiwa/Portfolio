@@ -133,7 +133,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: 'This is a web application for all fans of books. It is a Single Page App (SPA) that allows users to create and remove a book. Javascript, Redux, React, and HTML were used for this project.',
     key: 5,
-    web_link: '',
+    web_link: 'https://b--k-store.herokuapp.com/',
     github_link: 'https://github.com/hamid-murambiwa/book_store',
   },
 ];
