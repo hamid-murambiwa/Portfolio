@@ -1,37 +1,40 @@
-<h1>Portfolio</h1>
-   *Portfolio main page with a mobile and main page*
+# Portfolio
+> This is my portfolio website, and it has an introduction, project, and form section. The form section has a validation protocol. Javascript, CSS, and HTML were used to do this project.
 
-![an image of the portfolio mobile page  webpage](https://github.com/hamid-murambiwa/Portfolio-Mobile-site-image/blob/main/Screenshot%202021-08-12%20at%2008.38.49.png)
+![an image of the portfolio mobile page  webpage](https://user-images.githubusercontent.com/71644515/158045826-234c50a6-9d96-4c36-91b3-bbdc760edacd.png)
 ## Live Demo
 
 [Live Demo Link](https://hamid-murambiwa.github.io/Portfolio)
 
-**2 sections of the portfolio mobile version skeleton**
+## Built With
 
-<h2>Built With</h2>
-*HTML 
-*CSS3
+- HTML
+- CSS3
+- JavaScript
 
-<h2>Authors</h2>
+---
 
-<h3>👤 Hamid</h3>
+## Author
 
-*GitHub: [@hamid-murambiwa](https://github.com/hamid-murambiwa)
-*Twitter: [@Hamid](https://twitter.com/Hamid87789454)
-*LinkedIn: [@hamid murambiwa](https://www.linkedin.com/in/hamid-murambiwa-8a9a9520a/)
+👤 **Hamid Murambiwa**
 
+- GitHub: [@hamid-murambiwa](https://github.com/hamid-murambiwa/)
+- Twitter: [@Hamid87789454](https://twitter.com/Hamid87789454/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hamid-murambiwa/)
 
-<h2>🤝 Contributing</h2>
-**Contributions, issues, and feature requests are welcome!**
+## 🤝 Contributing
 
-**Feel free to check the issues page [issues page](https://github.com/hamid-murambiwa/Hello-Microverse/issues).**
+>Contributions, issues, and feature requests are welcome!
+>Feel free to check the [issues page](../../issues/).
 
-<h2>Show your support</h2>
-**Give a ⭐️ if you like this project!**
+## Show your support
 
-<h2>Acknowledgments</h2>
- - Microverse
- - Microverse Learning Partners  
+>Give a ⭐️ if you like this project!
 
-<h2>📝 License</h2>
-This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
+## Acknowledgments
+
+- This project built in Microverse's Fourth Module's Capstone.
+
+## 📝 License
+
+>This project is [MIT](./MIT.md) licensed.
