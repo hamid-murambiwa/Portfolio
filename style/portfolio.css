@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Red Hat Mono', monospace;
 }
 
 header {
@@ -912,8 +912,8 @@ nav {
   }
 
   #h2t {
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 10px;
+    margin-top: 25px;
   }
 
   .sect {
@@ -1054,6 +1054,7 @@ nav {
 
   .heading-title h3 {
     margin-right: 1vw;
+    margin-top: 50px;
   }
 
   #Works-grid {

@@ -219,7 +219,7 @@ for (let i = 0; i < 6; i++) {
     Card.appendChild(h1);
   });
 
-  const h2 = document.createElement('h4');
+  const h2 = document.createElement('i');
   h2.id = 'h2t';
   h2.innerHTML = PopUp[i].title2;
 
