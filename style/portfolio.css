@@ -775,7 +775,8 @@ nav {
   }
 
   .P-img {
-    width: 100%;
+    width: auto;
+    height: 19vh;
   }
 }
 
@@ -811,6 +812,7 @@ nav {
     padding: 9px;
     border-style: none;
     border-radius: 8px;
+    position: fixed;
   }
 
   .db-con {
@@ -829,7 +831,7 @@ nav {
     top: 2.5%;
     width: 90%;
     height: 95vh;
-    padding: 16px 16px;
+    padding: 20px 50px;
     background: #fff;
     border-radius: 16px;
     mix-blend-mode: normal;
