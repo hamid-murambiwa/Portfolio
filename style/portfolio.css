@@ -915,7 +915,8 @@ nav {
   }
 
   .P-img {
-    width: 50%;
+    width: auto;
+    height: 50vh;
   }
 
   #h2t {
