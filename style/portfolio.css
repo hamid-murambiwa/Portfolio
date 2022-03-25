@@ -770,9 +770,9 @@ nav {
 @media (min-width: 700px) {
   #wImg {
     width: auto;
-    height: 25vh;
+    height: 23vh;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 0;
   }
 
