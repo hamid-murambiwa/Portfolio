@@ -43,6 +43,10 @@ nav {
   margin-top: 10px;
 }
 
+#h1t {
+  font-weight: bolder;
+}
+
 .navlink-items a {
   color: #3a4a42;
 }
@@ -321,7 +325,7 @@ nav {
 }
 
 #s-1 p {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   color: #172b4d;
   margin-top: 5vw;
@@ -329,6 +333,7 @@ nav {
   animation-name: zoom-in-zoom-out;
   animation-duration: 1s;
   animation-direction: normal;
+  line-height: 23px;
 }
 
 @keyframes zoom-in-zoom-out {
@@ -995,16 +1000,17 @@ nav {
   }
 
   #s-1 p {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 400;
     text-align: center;
     color: #172b4d;
     margin-top: 20px;
-    width: 70%;
+    width: 38%;
     margin-bottom: 0%;
     animation-name: zoom-in-zoom-out;
     animation-duration: 1s;
     animation-direction: normal;
+    line-height: 22px;
   }
 
   @keyframes zoom-in-zoom-out {

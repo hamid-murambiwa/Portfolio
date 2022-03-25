@@ -199,6 +199,7 @@ const projects = `<div class="Card">
 for (let i = 0; i < 6; i++) {
   projectCards.innerHTML += projects;
   const h1 = document.createElement('h1');
+  h1.id = 'h1t';
   h1.innerHTML = PopUp[i].title1;
 
   const wIcon = document.createElement('div');
