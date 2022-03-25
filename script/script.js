@@ -57,7 +57,7 @@ const PopUp = [
     x_image: './style/images/158960785-73a0f514-01fa-4e3d-a2d4-b1d9202b70da.png',
     button_image1: './style/images/P-github-icon.svg',
     button_image2: './style/images/see-live-icon.svg',
-    tags: ['Ruby on rails', 'Postgresql', 'CSS'],
+    tags: ['Ruby on rails', 'Postgresql', 'CSS', 'Ruby'],
     button_name1: 'See Live',
     button_name2: 'See Source',
     title1: 'Recipe App',
