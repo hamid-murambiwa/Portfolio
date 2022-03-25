@@ -1109,6 +1109,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 30px;
+    font-size: 20px !important;
   }
 
   .card-content h3 {
