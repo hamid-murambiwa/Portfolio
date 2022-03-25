@@ -31,9 +31,15 @@ nav {
 }
 
 #wImg {
-  width: 50% !important;
-  height: auto !important;
+  width: auto;
+  height: 19vh;
   border-radius: 10px;
+  margin-top: 20px;
+}
+
+#h2t {
+  font-size: 10px;
+  margin-top: 10px;
 }
 
 .navlink-items a {
@@ -763,9 +769,11 @@ nav {
 
 @media (min-width: 700px) {
   #wImg {
-    width: 70% !important;
-    height: auto !important;
+    width: auto;
+    height: 25vh;
     border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
   }
 
   #modal {
@@ -898,6 +906,7 @@ nav {
 
   #h2t {
     font-size: 12px;
+    margin-top: 10px;
   }
 
   .sect {
