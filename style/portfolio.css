@@ -22,7 +22,7 @@ a {
 
 .flex {
   display: flex;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 nav {
