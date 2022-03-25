@@ -957,6 +957,7 @@ nav {
     padding: 0% 10% 0% 10%;
     width: 100%;
     border: none;
+    margin: 0;
   }
 
   .about-container p {
@@ -970,7 +971,7 @@ nav {
   .section-title h1 {
     font-size: 28px;
     line-height: 35px;
-    margin-top: 100px;
+    margin-top: 150px;
     font-weight: 700;
   }
 
