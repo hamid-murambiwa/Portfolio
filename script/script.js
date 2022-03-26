@@ -48,7 +48,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: 'This is a conference page for a beer company, that has a home and an about me page. The page announces the next beer conference hosted by the company. Javascript, CSS, and HTML were used for this project.',
     key: 0,
-    web_link: 'https://622d781581749956e38f35ab--brave-hodgkin-36a9b7.netlify.app/',
+    web_link: 'https://splendorous-granita-62d939.netlify.app',
     github_link: 'https://github.com/hamid-murambiwa/JavaScript-capstone-project---Conference-page',
   },
   {
