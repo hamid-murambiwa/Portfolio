@@ -71,6 +71,23 @@ const PopUp = [
   {
     Card_title: 'Keeping track of hundreds of components',
     project_img: './style/images/Disabled.svg',
+    x_image: './style/images/166159411-9953ba4e-5ff7-47af-8111-371e247b08d6.png',
+    button_image1: './style/images/P-github-icon.svg',
+    button_image2: './style/images/see-live-icon.svg',
+    tags: ['React', 'CSS', 'Javascript', 'HTML'],
+    button_name1: 'See Live',
+    button_name2: 'See Source',
+    title1: 'IP ADDRESS TRACKER',
+    title2: 'Personal Project',
+    btnName: 'See Project',
+    project_description: "Ip address tracker fetches location data using an ip address then displays the location on an interactive map. It also uses the the user's ip address to fetch and display the user's location on the map.",
+    key: 2,
+    web_link: 'https://development--enchanting-pithivier-4f097c.netlify.app/',
+    github_link: 'https://github.com/hamid-murambiwa/IP-Address-Tracker',
+  },
+  {
+    Card_title: 'Keeping track of hundreds of components',
+    project_img: './style/images/Disabled.svg',
     x_image: './style/images/158960785-73a0f514-01fa-4e3d-a2d4-b1d9202b70da.png',
     button_image1: './style/images/P-github-icon.svg',
     button_image2: './style/images/see-live-icon.svg',
@@ -81,7 +98,7 @@ const PopUp = [
     title2: 'Microverse Project',
     btnName: 'See Project',
     project_description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
-    key: 2,
+    key: 3,
     web_link: 'https://awe-recipe-app.herokuapp.com/',
     github_link: 'https://github.com/hamid-murambiwa/Recipe-app',
   },
@@ -98,7 +115,7 @@ const PopUp = [
     title2: 'Microverse Project',
     btnName: 'See Project',
     project_description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. Javascript, React, CSS, and HTML were used for this project.',
-    key: 3,
+    key: 4,
     web_link: 'https://mm-calculator.herokuapp.com/',
     github_link: 'https://github.com/hamid-murambiwa/Magic-Calculator',
   },
@@ -115,32 +132,13 @@ const PopUp = [
     title2: 'Microverse Project',
     btnName: 'See Project',
     project_description: "A SpaceX missions and rockets web application made with React, Redux and APIs. This project was created by Hamid Murambiwa and Karel van Oordt for Microverse's module 3.",
-    key: 4,
+    key: 5,
     web_link: 'https://spacehub-karel-hamid.herokuapp.com/',
     github_link: 'https://github.com/karelvanoordt/Rockets-GP',
   },
-  {
-    Card_title: 'Keeping track of hundreds of components',
-    project_img: './style/images/Disabled.svg',
-    x_image: './style/images/app_screenshot1.png',
-    button_image1: './style/images/P-github-icon.svg',
-    button_image2: './style/images/see-live-icon.svg',
-    tags: ['Webpack', 'CSS', 'Javascript', 'HTML'],
-    button_name1: 'See Live',
-    button_name2: 'See Source',
-    title1: 'Chez Restaurant',
-    title2: 'Microverse Project',
-    btnName: 'See Project',
-    project_description: 'This project Chez Programmeur Restaurant is a Restaurant website (SPA) that allows users to add comments, likes and reserve. This project is part of the Microverse curriculum Module 2 Block 5 Capstone Week. The main objective is about building your own web application based on an external API. You will select an API that provides data about a topic that you like and then build the webapp around it.',
-    key: 5,
-    web_link: 'https://sja-capstone-chezprogrammer.netlify.app/',
-    github_link: 'https://github.com/sja-thedude/Capstone-2-Group-Project',
-  },
 ];
-console.log(PopUp[1].project_description);
-// Modal content
+
 function addPopUp(key) {
-  console.log(PopUp[key].project_description);
   const PopUpPage = `<div class="db-con">
   <button class="disable-con" id="btn-hide">
       <img src="${PopUp[key].project_img}" alt="Pop up exit button">
@@ -279,7 +277,6 @@ for (let i = 0; i < 6; i++) {
 const buttonDisplay = Array.from(document.querySelectorAll('.btn-e'));
 buttonDisplay.forEach((button) => {
   button.addEventListener('click', () => {
-    console.log(button.id);
     addPopUp(button.id);
     document.getElementById('modal').style = 'display: flex';
   });
