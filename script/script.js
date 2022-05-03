@@ -105,7 +105,7 @@ const PopUp = [
   {
     Card_title: 'Keeping track of hundreds of components',
     project_img: './style/images/Disabled.svg',
-    x_image: './style/images/Screenshot 2021-12-01 at 10.31.09.png',
+    x_image: './style/images/166466491-1b361f8d-e7a8-4879-a2d9-1712c1cd6a9f.png',
     button_image1: './style/images/P-github-icon.svg',
     button_image2: './style/images/see-live-icon.svg',
     tags: ['React', 'CSS', 'Javascript', 'HTML'],
@@ -116,7 +116,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. Javascript, React, CSS, and HTML were used for this project.',
     key: 4,
-    web_link: 'https://mm-calculator.herokuapp.com/',
+    web_link: 'https://62713481ccb7b6026b9001cb--dainty-sunflower-17208d.netlify.app/',
     github_link: 'https://github.com/hamid-murambiwa/Magic-Calculator',
   },
   {
