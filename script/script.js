@@ -116,7 +116,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. Javascript, React, CSS, and HTML were used for this project.',
     key: 4,
-    web_link: 'https://62713481ccb7b6026b9001cb--dainty-sunflower-17208d.netlify.app/',
+    web_link: 'https://dev--dainty-sunflower-17208d.netlify.app/',
     github_link: 'https://github.com/hamid-murambiwa/Magic-Calculator',
   },
   {
