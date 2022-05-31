@@ -879,7 +879,7 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     gap: 32px;
-    width: 100%;
+    width: 95%;
   }
 
   .button-con {
