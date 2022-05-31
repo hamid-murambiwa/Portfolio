@@ -795,17 +795,13 @@ nav {
 }
 
 @media (max-width: 1000px) {
-  #wImg {
-    height: 10vh !important;
-  }
-
   #Works-grid {
     padding: 12px 15px !important;
   }
 
   .P-img {
     margin-top: 15px !important;
-    height: 25vh !important;
+    height: 150px !important;
   }
 
   .modal-body {
@@ -817,9 +813,8 @@ nav {
 @media (min-width: 700px) {
   #wImg {
     width: auto;
-    height: 22vh;
+    height: 150px;
     border-radius: 10px;
-    margin-bottom: 10px;
     margin-top: 0;
   }
 
