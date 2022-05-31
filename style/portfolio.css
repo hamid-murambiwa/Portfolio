@@ -206,11 +206,24 @@ nav {
   width: 90%;
   height: auto;
   padding: 40px 25px;
-  background: rgba(70, 195, 195, 0.915);
+  background: rgba(70, 195, 195, 0.99);
   border-radius: 16px;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   overflow-y: scroll;
+  animation-name: enlarge;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+}
+
+@keyframes enlarge {
+  from {
+    transform: scale(0.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
 .modal-body h1 {
@@ -781,6 +794,26 @@ nav {
   }
 }
 
+@media (max-width: 1000px) {
+  #wImg {
+    height: 10vh !important;
+  }
+
+  #Works-grid {
+    padding: 12px 15px !important;
+  }
+
+  .P-img {
+    margin-top: 15px !important;
+    height: 25vh !important;
+  }
+
+  .modal-body {
+    height: auto !important;
+    top: 18.5% !important;
+  }
+}
+
 @media (min-width: 700px) {
   #wImg {
     width: auto;
@@ -1082,7 +1115,7 @@ nav {
     grid-template-columns: repeat(1, 1fr);
     height: 422px;
     width: auto;
-    align-items: flex-end;
+    align-items: center;
     margin: 3%;
   }
 
