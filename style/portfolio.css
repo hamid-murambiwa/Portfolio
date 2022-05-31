@@ -206,7 +206,7 @@ nav {
   width: 90%;
   height: auto;
   padding: 40px 25px;
-  background: hsl(180deg 51% 52%);
+  background: rgba(70, 195, 195, 0.915);
   border-radius: 16px;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
