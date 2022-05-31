@@ -206,7 +206,7 @@ nav {
   width: 90%;
   height: auto;
   padding: 40px 25px;
-  background: #fff;
+  background: hsl(180deg 51% 52%);
   border-radius: 16px;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -833,7 +833,6 @@ nav {
     width: 80%;
     height: 90vh;
     padding: 20px 50px;
-    background: hsl(180deg 51% 52%);
     border-radius: 16px;
     mix-blend-mode: normal;
     box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
