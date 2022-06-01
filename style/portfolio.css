@@ -768,6 +768,10 @@ nav {
 }
 
 @media (max-width: 627px) {
+  #wImg {
+    height: 1300px !important;
+  }
+
   .modal-body h1 {
     font-size: 20px;
     line-height: 25px;
