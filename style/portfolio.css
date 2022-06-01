@@ -795,13 +795,17 @@ nav {
 }
 
 @media (max-width: 1000px) {
+  #wImg {
+    height: 100px !important;
+  }
+
   #Works-grid {
     padding: 12px 15px !important;
   }
 
   .P-img {
     margin-top: 15px !important;
-    height: 110px !important;
+    height: 150px !important;
   }
 
   .modal-body {
