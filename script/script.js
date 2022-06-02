@@ -116,7 +116,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: 'This is a mobile web application to check a list of metrics (numeric values) and is built using React and Redux. Data is fetched from the TheDogApi, displayed and filtered on two pages. The web app has a home page and a details page.',
     key: 4,
-    web_link: 'https://622d9a1334cc7f237fa38cbe--confident-babbage-e8362d.netlify.app/',
+    web_link: 'https://confident-babbage-e8362d.netlify.app/',
     github_link: 'https://github.com/hamid-murambiwa/Metrics-web-app',
   },
   {
