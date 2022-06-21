@@ -37,7 +37,7 @@ const PopUp = [
   {
     Card_title: 'Keeping track of hundreds of components',
     project_img: './style/images/Disabled.svg',
-    x_image: './style/images/166466491-1b361f8d-e7a8-4879-a2d9-1712c1cd6a9f.png',
+    x_image: './style/images/174386958-c637b8be-a659-45a6-a9ff-f075159c9989.png',
     button_image1: './style/images/P-github-icon.svg',
     button_image2: './style/images/see-live-icon.svg',
     tags: ['React', 'CSS', 'Javascript', 'HTML'],
