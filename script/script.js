@@ -48,7 +48,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: 'A web application made with Ruby on Rails + React that allows users to book their favourite cruises and destinations',
     key: 0,
-    web_link: 'https://62ada1e5cf10dc0008911fa4--tangerine-basbousa-b21c1a.netlify.app/',
+    web_link: 'https://sailvation.netlify.app/',
     github_link: 'https://github.com/hamid-murambiwa/sailvation-app-frontend',
   },
   {
@@ -65,7 +65,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. Javascript, React, CSS, and HTML were used for this project.',
     key: 1,
-    web_link: 'https://dev--dainty-sunflower-17208d.netlify.app/',
+    web_link: 'https://maths-magician-app.netlify.app/',
     github_link: 'https://github.com/hamid-murambiwa/Magic-Calculator',
   },
   {
@@ -99,7 +99,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: "Ip address tracker fetches location data using an ip address then displays the location on an interactive map. It also uses the the user's ip address to fetch and display the user's location on the map.",
     key: 3,
-    web_link: 'https://development--enchanting-pithivier-4f097c.netlify.app/',
+    web_link: 'https://ip-address-tracker-application.netlify.app/',
     github_link: 'https://github.com/hamid-murambiwa/IP-Address-Tracker',
   },
   {
@@ -116,7 +116,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: 'This is a conference page for a beer company, that has a home and an about me page. The page announces the next beer conference hosted by the company. Javascript, CSS, and HTML were used for this project.',
     key: 4,
-    web_link: 'https://splendorous-granita-62d939.netlify.app',
+    web_link: 'https://conference-page.netlify.app/',
     github_link: 'https://github.com/hamid-murambiwa/JavaScript-capstone-project---Conference-page',
   },
   {
@@ -133,7 +133,7 @@ const PopUp = [
     btnName: 'See Project',
     project_description: 'This is a mobile web application to check a list of metrics (numeric values) and is built using React and Redux. Data is fetched from the TheDogApi, displayed and filtered on two pages. The web app has a home page and a details page.',
     key: 5,
-    web_link: 'https://confident-babbage-e8362d.netlify.app/',
+    web_link: 'https://dogbreeds-app.netlify.app/',
     github_link: 'https://github.com/hamid-murambiwa/Metrics-web-app',
   },
   {
