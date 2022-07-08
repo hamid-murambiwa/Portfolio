@@ -4,7 +4,7 @@
 ![an image of the portfolio mobile page  webpage](https://user-images.githubusercontent.com/71644515/158045826-234c50a6-9d96-4c36-91b3-bbdc760edacd.png)
 ## Live Demo
 
-[Live Demo Link](https://development--magnificent-sawine-985139.netlify.app/#about)
+[Live Demo Link](https://portfolio-hamid-murambiwa.netlify.app/)
 
 ## Built With
 
